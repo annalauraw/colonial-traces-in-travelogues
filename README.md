@@ -10,4 +10,6 @@ get_entities.py processes the JSON title files and enriches them with Named enti
 
 The resulting data, i.e. Named Entities found per text page, is the basis for this [prototypical frontend](https://github.com/Ibrahim-Halil-Kuray/Glam-Hack-2023) which makes it possible to discover the text pages of a printed travelogue side by side with the entities suggested per page.
 
+For a reference of the entity categories used, please see the [BERT documentation](https://huggingface.co/dslim/bert-base-NER).
+
 The next step could be to link the identified entities to Wikidata objects using [SBB-NED](https://github.com/qurator-spk/sbb_ned).
