@@ -1,14 +1,13 @@
 # Identifying colonial traces in early modern travelogues (GLAMhack23 challenge)
 
-## Name
-Identifying colonial traces in early modern travelogues
+With the help of @Ibrahim-Halil-Kuray
 
-## Description
-Zentralbibliothek Zürich provides a [text corpus of printed travelogues](https://opendata.swiss/en/dataset/gedruckte-reiseberichte-des-16-bis-19-jh) from the 16th to 19th century. Can you identify and extract colonial traces in these French and German texts? For instance, you could try describe the gaze on the "other" by tracking down mentions of geographic regions, different languages, certain ethnicities or one of the following semantic fields with NLP methods:
+This repository contains scripts for processing the dataset [Early modern travel literature](https://opendata.swiss/en/dataset/gedruckte-reiseberichte-des-16-bis-19-jh) with OCR text from early modern prints provided by Zentralbibliothek Zürich.
 
-- the concept of the "noble savage"
-- slavery
-- representation of dominance
-- hierarchies and structures of control 
+split_titles.py takes the [large JSON file](https://opendata.swiss/en/dataset/gedruckte-reiseberichte-des-16-bis-19-jh/resource/21d83a08-363c-442f-8fee-b87af8dc76e8) containing all the titles, splits it, and saves the JSON for one title to a new file. 
 
-For instance, the last field could be looked at from an economic, military, cultural or political perspective. Starting from a military perspective, word clusters like "Truppe – Fortifikation – Kriegszug - verfolgt – Beute – Treueeid – schwören – Vasall – kniend - Tribut" could be interesting to search for inside the German texts.
+get_entities.py processes the JSON title files and enriches them with Named entities suggested by Named Entity Recognition tool [SBB-NER-Tagger](https://github.com/qurator-spk/sbb_ner). SBB-NER-Tagger can be locally installed and run - get_entities.py makes queries against its API. data/example_title_with_entities_per_page.json contains some example content to illustrate the document structure.
+
+The resulting data, i.e. Named Entities found per text page, is the basis for this [prototypical frontend](https://github.com/Ibrahim-Halil-Kuray/Glam-Hack-2023) which makes it possible to discover the text pages of a printed travelogue side by side with the entities suggested per page.
+
+The next step could be to link the identified entities to Wikidata objects using [SBB-NED](https://github.com/qurator-spk/sbb_ned).
