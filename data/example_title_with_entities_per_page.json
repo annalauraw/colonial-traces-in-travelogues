@@ -1,0 +1,45 @@
+{
+    "_id": "oai:www.e-rara.ch:3750151",
+    "doi": "10.3931/e-rara-12022",
+    "title": "Unglükliche Schiffs-Leute, oder, Merkwirdige Reise zwenzig Holländeren ...",
+    "authors": [
+        {
+            "gnd_id": "http://d-nb.info/gnd/100824013",
+            "name": "Struys, Jan Janszoon",
+            "life_dates": "1629-1694"
+        },
+        {
+            "gnd_id": "http://d-nb.info/gnd/119020475",
+            "name": "Redinger, Johann Jakob",
+            "life_dates": "1619-1688"
+        },
+        {
+            "gnd_id": "http://d-nb.info/gnd/1032550821",
+            "name": "Müller, Heinrich",
+            "role": "prt"
+        }
+    ],
+    "years": [
+        {
+            "type": "start",
+            "value": "1679"
+        }
+    ],
+    "resource_type": "text",
+    "text_links": [
+        {
+            "page_label": "Scan 20",
+            "page_text": "Schiffsleute. 15 Got und Novogorod bestehen ? Sie war auch vor Altersseer reich und wolliistig/und ein Pakhaus Unterschidlicher Waaren. Nachdem aber der Großfürst in der Moskau/ Iohaii Basilowiz/dise Stat/im 1477. Jar iiber- wunden/sindmit dem Untergang ihrer Herschung ihre Freyheiten/und Vorrechte dergemeinerStä- ten mit weggenomen/ und ist nach diser Zeit der Kauffhandel auch zerstreitet/ doch nicht ganz vertilget worden :dan gegenwertig wird noch treffli- cheKauffmanschaft getribenmnd fiimemlrch durch die Hamburger/Liibeker/Schweeden und Dänen welche von derNerva den fluß bis nach Novogorod auffaren- Der Handel bestehet in Korn/Gcrsten/ Leyn - und Rübsamen/Pelzwerk/Hanff/ Flachs/ und insonderheit in Häiiten (Juchten) deren daselbst vil Fälle bereitet werden: allster ist überflüssig vil Vych/und sind die Lebens mitel um einen geringen Preys zubekomen / insonderheit die Fische/ wozu ein grosser Markt ist/ auffwelchem man zu Kauff findet Stören/Lächs/Hechte/Barmen (Barben-Karpfen/Schleyen/undvilerleyWeyß- fische. Die Stat Novogorod ist allein mit hölzernen Wallen und Werken umringet / und mit metallenen Geschiiz-Stuten versehen / und hat an der einer Seyte ein fest steinern Schloß / mit einer Maur umgeben / auff welchem der Oberaufseher (Erzbischoff) mit etlichen fiirnemen Herren seinen Wonplaz hat:von disem Schloß gehet man iibee",
+            "entities": [
+                {
+                    "prediction": "I-PER",
+                    "word": "Antonius"
+                },
+                {
+                    "prediction": "I-LOC",
+                    "word": "Portugal"
+                }
+            ]
+        }
+    ]
+}
