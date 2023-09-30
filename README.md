@@ -1,6 +1,6 @@
 # Identifying colonial traces in early modern travelogues (GLAMhack23 challenge)
 
-With the help of @Ibrahim-Halil-Kuray
+With the help of @Ibrahim-Halil-Kuray and @guenterh
 
 This repository contains scripts for processing the dataset [Early modern travel literature](https://opendata.swiss/en/dataset/gedruckte-reiseberichte-des-16-bis-19-jh) with OCR text from early modern prints provided by Zentralbibliothek Zürich.
 
