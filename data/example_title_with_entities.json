@@ -1,0 +1,36 @@
+{
+    "author_name": "Alexander von",
+    "author_surname": "Humboldt",
+    "source": "Voyage aux régions équinoxiales du Nouveau Continent, fait en 1799, 1800, 1801, 1802, 1803 et 1804",
+    "journey": [
+        {
+            "from-date": "25.10.1789",
+            "to_date": "12.12.1790",
+            "place": "France"
+        },
+        {
+            "from-date": "25.10.1789",
+            "to_date": "12.12.1790",
+            "place": "France"
+        },
+        {
+            "from-date": "25.10.1789",
+            "to_date": "12.12.1790",
+            "place": "France"
+        }
+    ],
+    "entities": [
+        {
+            "prediction": "B-PER",
+            "word": "Paris"
+        },
+        {
+            "prediction": "I-PER",
+            "word": "Hilton"
+        },
+        {
+            "prediction": "B-ORG",
+            "word": "Hilton"
+        }
+    ]
+}
